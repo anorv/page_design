@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+body{
+    background-color: #c8cfdc;
+    font-family: monospace;
+    padding:46px 42px 77px 20px;
+}
+
+
+.foot {
+    /* height: 300vw; */
+    background-image: url(Image/feet.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* padding: 20px 30px 77px 20px; */
+}
+
+ /* pirmas blokas */
+ nav {
+     display: flex;
+     width: 100%;
+     background-color: white;
+     justify-content: space-between;
+     padding-bottom: 70px;
+     
+ }
+
+.left_side {
+    background-color: white;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 19px;
+    padding-left: 8px;
+}
+
+.right_side {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+li {
+    margin-right: 34px;
+    font-size: 15px ;
+    font-weight: 400;
+}
+
+ul img {
+    margin-right: 9px;
+}
+
+span {
+    color: blue;
+}
+
+
+/* prasideda antras blokas */
+
+.shoe {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 85vh;
+   
+ 
+}
+
+
+
+.shoe_left {
+    width: 60%;
+    padding-top: 61px;
+    background-image: url('Image/shoe.png');
+    background-position: center;
+    background-size: 85%;  
+    background-repeat: no-repeat;
+    transition: width 2s;
+}
+
+.shoe_left:hover {
+    width: 65% ;
+}
+
+.text_right {
+    width: 30%;
+    
+}  
+
+.heart {
+    padding: 15px;
+    border: 1px solid gray;
+    
+
+}
+
+.text_right .first_p {
+    color: gray;
+    font-size: 18px;
+}
+
+.second_p {
+    color: gray;
+}
+
+.shoes_block {
+    display: flex;
+    margin: 2px ;
+
+
+}
+
+.batas {
+    background-color: rgb(223, 215, 215);
+    width: 70px;
+    padding: 8px;
+    padding-top: 21px;
+    margin-right: 19px;
+    /* height: 70px; */
+}
+
+.batas img {
+    width: 100%;
+  
+    
+}
+
+.text_next {
+color: rgb(148, 144, 144);
+font-size: small;
+
+}
+
+select {
+    color: gray;
+    padding: 15px;
+}
+    
+
+.add_to_card {
+    background-color: black;
+    color: white;
+    width: 50%;
+    text-align: center;
+    padding: 23px;
+    font-size: large;
+
+}
+
+.foot_text {
+ color: white;
+ padding-top: 273px;
+ margin-bottom: 195px;
+
+
+}
+
+.foot_text p {
+    margin-right: 522px;
+    line-height: 22px;
+    margin-left: 29px;
+}
+
+.foot_text h2 {
+    margin-left: 29px;
+}
+
+
+/* prasideda trecia sekcija */
+
+.foot_last {
+    background-color: rgb(243, 239, 239);
+    display: flex;
+    width: 100%;
+    /* height: 85vh; */
+    color: rgb(121, 118, 118);
+    padding-left: 25px;
+    
+}
+
+.foot_last1 {
+    width: 30%;
+}
+.last_p {
+    font-size: x-small;
+}
+
+
+.foot_last2 {
+    width: 40%;
+    background-image: url('Image/shoesTop.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    transition: width 2s ;
+    
+}
+.foot_last2:hover {
+    width: 45%;
+}
+
+.foot_last3 {
+    border: 2px solid rgb(199, 196, 196);
+    width: 30%;
+    background-color: white;
+    border: px solid grey;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 47px;
+    margin-left: 8px;
+   
+}
+
+
+.foot_last3 {
+    padding-left: 25px;
+    height: 100%;
+}
+
+.foot_last3_img {
+    width: 96%;
+    margin-top: 37px;
+    margin-bottom: 2px;
+}
+
+.foot_span {
+    font-weight: bold;
+    
+}
+
+.price {
+    color: black;
+    padding-left: 120px;
+    
+}
+
+
+.add_to_card2 {
+    background-color: black;
+    color: white;
+    width: 47%;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+}
+
+
+footer {
+    background-image: url(Image/nikeshoes.png);
+    background-size: cover;
+    height: 50vh;
+ 
+}
